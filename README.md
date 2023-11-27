@@ -13,9 +13,10 @@ This project is uses hadoop to calculate the frequency of the url's searched on 
 1. Install hadoop (version 3.1.1)
 2. Configure hadoop on your system
 3. Install JDK-1.8
-4. Configure path for JAVA and HADOOP in environment variables
+4. Configure path for JAVA and HADOOP in environment variables (For Windows environment make sure to add winutil for the appropriate windows version)
 5. add mapredminiproject1.jar file to '\hadoop\share\hadoop\mapreduce' folder 
 5. Open cmd in administration mode
 6. Run start-dfs.cmd
 7. Run start-yarn.cmd to start namenode and datanode
 8. Execute automation.bat file
+
