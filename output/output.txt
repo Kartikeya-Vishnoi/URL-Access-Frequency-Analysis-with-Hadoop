@@ -1,0 +1,3 @@
+/another-page	250
+/example-page	500
+/third-page	250

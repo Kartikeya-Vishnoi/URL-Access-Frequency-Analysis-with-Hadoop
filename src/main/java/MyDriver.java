@@ -10,10 +10,10 @@ public class MyDriver {
   
     public static void main(String[] args) throws Exception {
         // Check if the number of command line arguments is correct
-        if (args.length != 2) {
-            System.err.println("Usage: MyDriver <input path> <output path>");
-            System.exit(-1);
-        }
+        // if (args.length != 2) {
+        //     System.err.println("Usage: MyDriver <input path> <output path> fghsdfg" + args.length);
+        //     System.exit(-1);
+        // }
 
         // Create a new Hadoop job
         Configuration conf = new Configuration();
