@@ -10,7 +10,7 @@ public class mapper extends Mapper<LongWritable, Text, Text, LongWritable> {
     private final static LongWritable one = new LongWritable(1);
     private Text urlText = new Text();
 
-    private final Pattern urlPattern = Pattern.compile("\"GET ([^\"]+)\"");
+    private final Pattern urlPattern = Pattern.compile("\"TYPE ([^\"]+)\"");
 
     @Override
     protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
